@@ -1,0 +1,57 @@
+:root {
+  --defaultPadding: 110px;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gold;
+}
+
+.header {
+  border-bottom: 1.5px solid black;
+  padding: 10px var(--defaultPadding) 10px 0;
+  position: relative;
+}
+
+
+.header .innerContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 77px;
+}
+
+.logo {
+  width: 209px;
+  height: auto;
+  position: absolute;
+  bottom: -34px;
+  transform: scale(-1, 1);
+  filter: drop-shadow(6px 2px 0px black);
+}
+
+.logolink {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+
+}

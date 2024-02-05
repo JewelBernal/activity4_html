@@ -5,40 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./styles/_global.css">
+  <link rel="stylesheet" type="text/css" href="./styles/homepage.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="logo">
-      <a href="/">Redlight</a>
+    <div class="innerContainer">
+      <a class="logolink" href="/">
+        <img class="logo" alt="logo" src="./images/tom.png">
+      </a>
+      <div class="navcontainer">
+        <nav class="navbar">
+          <navitem class="navlink">
+            <a href="./webpages/aboutme.html">About Me</a>
+          </navitem>
+          <navitem class="navlink">
+            <a href="./webpages/academic.html">Academic Life</a>
+          </navitem>
+          <navitem class="navlink">
+            <a href="./webpages/family.html">My Family</a>
+          </navitem>
+        </nav>
+      </div>
     </div>
-    <nav class="navbar">
-      <navitem class="navlink">
-        <a href="./webpages/aboutme.html">About Me</a>
-      </navitem>
-      <navitem class="navlink">
-        <a href="./webpages/academic.html">Academic Life</a>
-      </navitem>
-      <navitem class="navlink">
-        <a href="./webpages/family.html">My Family</a>
-      </navitem>
-    </nav>
   </header>
 
   <section id="intro">
-    <h2 class="sectionTitle">
-      Jewel Bernal
-    </h2>
-    <p class="sectionParag">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laudantium impedit tenetur
-      reiciendis. Assumenda cum aperiam accusantium dolorum quod magnam explicabo, eius natus consequuntur rem
-      laudantium optio dolor laborum?
-    </p>
-    <a class="button" href="./webpages/aboutme.html">About Me</a>
+    <div class="innerContainer">
+      <div class="column">
+        <h2 class="sectionTitle">
+          Jewel Bernal
+        </h2>
+        <p class="sectionParag">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laudantium impedit tenetur
+          reiciendis. Assumenda cum aperiam accusantium dolorum quod magnam explicabo, eius natus consequuntur rem
+          laudantium optio dolor laborum?
+        </p>
+        <a class="button" href="./webpages/aboutme.html">About Me</a>
+      </div>
+      <div class="column">
+        <img class="keyvisual" alt="about me" src="./images/aboutme.png" width="600px">
+      </div>
+    </div>
   </section>
-  <section id="family">
 
+  <section id="family">
+    <h2 class="sectionTitle">
+      Meet my Family
+    </h2>
+    <p></p>
   </section>
+
   <section id="academic">
 
   </section>
