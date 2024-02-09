@@ -3,9 +3,10 @@ section {
   padding-inline: var(--defaultPadding);
 }
 
-.navcontainer .navlink:nth-child(1) {
+.navcontainer .navbar .navlink:nth-child(1) {
   text-shadow: 1px 0px 0.5px black;
   scale: 1.05;
+  transition: ease-in-out 0.3s;
 }
 
 .sectionTitle {

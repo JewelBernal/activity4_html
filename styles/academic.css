@@ -1,0 +1,77 @@
+section {
+  padding-block: 80px;
+  padding-inline: var(--defaultPadding);
+}
+
+.navcontainer .navbar .navlink:nth-child(2) {
+  text-shadow: 1px 0px 0.5px black;
+  scale: 1.05;
+  transition: ease-in-out 0.3s;
+}
+
+.sectionTitle {
+  font-size: 52px;
+  margin-left: 0px;
+  line-height: 0;
+  /* margin: 0; */
+}
+
+.sectionParag {
+  margin-right: 10px;
+}
+
+.keyvisual {
+  width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px -12px #0000008c;
+}
+
+.keyvisual:hover {
+  border-radius: 16px;
+  scale: 1.03;
+  transition: ease-in-out 0.3s;
+}
+
+#first .innerContainer {
+  display: flex;
+  align-items: center;
+}
+
+#first .innerContainer .column {
+  flex: 1;
+}
+
+#first .innerContainer .column:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+#first .innerContainer .column:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#first .keyvisual {
+  width: 600px;
+}
+
+#second {
+  background-color: rgb(218, 197, 9);
+}
+
+#second .innerContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#second .sectionTitle {
+  margin-left: 20px;
+}
+
+#second .sectionParag {
+  margin-left: 20px;
+}
