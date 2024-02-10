@@ -32,8 +32,9 @@ section#intro {
 }
 
 .header {
-  background-color: rgb(20 19 9);
+  background-color: rgba(20, 19, 9, 0.404);
   border-bottom: 1.5px solid rgb(20 19 9);
+  backdrop-filter: blur(15px);
 }
 
 .sectionTitle {

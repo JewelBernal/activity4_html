@@ -18,11 +18,12 @@ body {
 
 .header {
   z-index: 10;
-  background-color: rgb(255, 196, 0);
+  background-color: rgb(255 196 0 / 56%);
   /* border-bottom: 1.5px solid black; */
   padding: 10px var(--defaultPadding) 10px 0;
   position: fixed;
   width: -webkit-fill-available;
+  backdrop-filter: blur(15px);
 }
 
 
