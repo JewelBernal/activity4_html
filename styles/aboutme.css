@@ -6,7 +6,6 @@ section {
 .navcontainer .navbar .navlink:nth-child(1) {
   text-shadow: 1px 0px 0.5px black;
   scale: 1.05;
-  transition: ease-in-out 0.3s;
 }
 
 .sectionTitle {
@@ -23,6 +22,7 @@ section {
 .keyvisual {
   border-radius: 16px;
   box-shadow: 0 30px 50px -12px #0000008c;
+  max-width: 550px;
 }
 
 .keyvisual:hover {
