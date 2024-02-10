@@ -4,6 +4,10 @@ section {
   padding-inline: var(--defaultPadding);
 }
 
+section#intro {
+  padding-top: 150px;
+}
+
 #intro .innerContainer {
   display: flex;
   align-items: center;
@@ -124,7 +128,7 @@ section {
 }
 
 #family {
-  background-color: rgb(218, 197, 9);
+  background-color: rgb(255 197 0);
 
 }
 

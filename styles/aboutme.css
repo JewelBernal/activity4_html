@@ -1,14 +1,43 @@
+body {
+  background-color: rgb(27, 25, 18);
+}
+
 section {
   padding-block: 80px;
   padding-inline: var(--defaultPadding);
 }
 
-.navcontainer .navbar .navlink:nth-child(1) {
-  text-shadow: 1px 0px 0.5px black;
+section#intro {
+  padding-top: 160px;
+}
+
+.navlink a {
+  display: inline-block;
+  text-decoration: none;
+  color: gold;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.navlink a:hover {
+  transition: all ease-in-out 0.3s;
+  color: gold;
+  text-shadow: 1px 0px 0.5px gold;
   scale: 1.05;
 }
 
+.navcontainer .navbar .navlink:nth-child(1) {
+  text-shadow: 1px 0px 0.5px gold;
+  scale: 1.05;
+}
+
+.header {
+  background-color: rgb(20 19 9);
+  border-bottom: 1.5px solid rgb(20 19 9);
+}
+
 .sectionTitle {
+  color: gold;
   font-size: 52px;
   margin-left: 20px;
   line-height: 0;
@@ -16,6 +45,7 @@ section {
 }
 
 .sectionParag {
+  color: gold;
   margin-left: 20px;
 }
 
@@ -43,7 +73,7 @@ section {
 }
 
 #secondSection {
-  background-color: rgb(218, 197, 9);
+  background-color: rgb(20 19 9);
 }
 
 #secondSection .innerContainer {
