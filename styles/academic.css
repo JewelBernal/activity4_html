@@ -3,6 +3,10 @@ section {
   padding-inline: var(--defaultPadding);
 }
 
+section#first {
+  padding-top: 150px;
+}
+
 .navcontainer .navbar .navlink:nth-child(2) {
   text-shadow: 1px 0px 0.5px black;
   scale: 1.05;
@@ -59,7 +63,7 @@ section {
 }
 
 #second {
-  background-color: rgb(218, 197, 9);
+  background-color: rgb(255 197 0);
 }
 
 #second .innerContainer {

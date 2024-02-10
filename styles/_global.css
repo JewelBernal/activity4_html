@@ -17,9 +17,12 @@ body {
 }
 
 .header {
-  border-bottom: 1.5px solid black;
+  z-index: 10;
+  background-color: rgb(255, 196, 0);
+  /* border-bottom: 1.5px solid black; */
   padding: 10px var(--defaultPadding) 10px 0;
-  position: relative;
+  position: fixed;
+  width: -webkit-fill-available;
 }
 
 
@@ -36,7 +39,7 @@ body {
   position: absolute;
   bottom: -34px;
   transform: scale(-1, 1);
-  filter: drop-shadow(6px 2px 0px black);
+  filter: drop-shadow(-10px 0px 0px black);
 }
 
 .logolink {
