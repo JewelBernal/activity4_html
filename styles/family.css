@@ -30,8 +30,8 @@ section#first {
 
 #first .cardcontainer {
   display: flex;
-  gap: 20px 20px;
-  justify-content: center;
+  gap: 90px 100px;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -47,8 +47,12 @@ p.nameTitle {
   line-height: 0;
 }
 
+p.sectionParag {
+  padding: 30px;
+}
+
 .card {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 #first .sectionTitle {
