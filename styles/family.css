@@ -33,6 +33,7 @@ section#first {
   gap: 90px 100px;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #first .cardcontainer.card {
@@ -41,6 +42,10 @@ section#first {
 
 h3.description {
   line-height: 0.4;
+}
+
+h3.name {
+  line-height: 0.6;
 }
 
 p.nameTitle {
@@ -52,7 +57,7 @@ p.sectionParag {
 }
 
 .card {
-  max-width: 500px;
+  max-width: 450px;
 }
 
 #first .sectionTitle {
@@ -78,8 +83,8 @@ p.sectionParag {
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 30px 50px -12px #0000008c;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
 }
 
 .keyvisual:hover {
